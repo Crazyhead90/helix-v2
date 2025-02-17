@@ -1,0 +1,26 @@
+# /etc/conf.d/helixd: config file for /etc/init.d/helixd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/helix/helix.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/helixd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/helixd.pid"
+
+# Where to write helixd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/helixd"
+
+# User and group to own helixd process
+#BITCOIND_USER="helix"
+#BITCOIND_GROUP="helix"
+
+# Path to helixd executable
+#BITCOIND_BIN="/usr/bin/helixd"
+
+# Nice value to run helixd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
